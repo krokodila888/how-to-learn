@@ -20,7 +20,7 @@
   width: 183px;
 }
 
-.logo__place_header {
+.logo_place_header {
   height: 32px;
   z-index: 3;
   position: absolute;
@@ -304,7 +304,7 @@
   justify-content: space-between;
 }
 
-.logo__place_footer {
+.logo_place_footer {
   height: 35px;
 }
 
