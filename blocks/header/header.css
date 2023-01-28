@@ -9,3 +9,52 @@
   padding-left: 64px;
   overflow: hidden;
 }
+
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.header__link:hover {
+  opacity: 30%;
+  transition: opacity 0.5s ease-in 0.1s;
+}
+
+.header__main-illustration {
+  height: 608px;
+  width: 765px;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+  background-color: #2f80ed;
+  z-index: 0;
+  position: absolute;
+  top: 64px;
+  right: 0;
+}
+
+.header__subtitle {
+  width: 388px;
+  z-index: 2;
+  margin: 0;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.header__title {
+  font-size: 102px;
+  max-width: 730px;
+  z-index: 4;
+  line-height: 96px;
+  font-weight: bold;
+  margin: 0;
+}
