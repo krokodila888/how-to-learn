@@ -5,3 +5,28 @@
   align-items: center;
   padding: 100px 0 217px 0;
 }
+
+.resources__link:hover {
+  opacity: 30%;
+  transition: opacity 0.5s ease-in 0.1s;
+}
+
+.resources__logo-zone {
+  width: 1100px;
+  margin: 80px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.resources__logo {
+  min-width: 270px;
+  height: 38px;
+}
+
+.resources__section-subtitle {
+  width: 60%;
+}
+
+.resources__section-title {
+  width: 60%;
+}
