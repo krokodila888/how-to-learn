@@ -1,3 +1,15 @@
+.logo {
+  width: 183px;
+}
+
+.logo_place_header {
+  height: 32px;
+  z-index: 3;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -57,16 +69,4 @@
   line-height: 96px;
   font-weight: bold;
   margin: 0;
-}
-
-.logo {
-    width: 183px;
-}
-
-.logo_place_header {
-    height: 32px;
-    z-index: 3;
-    position: absolute;
-    top: 30px;
-    left: 64px;
 }
